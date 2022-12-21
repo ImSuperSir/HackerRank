@@ -31,5 +31,7 @@ namespace CountBinarySubstringsTest
 
             Assert.Equal(pReversal, lResult);
         }
+
+ 
     }
 }
