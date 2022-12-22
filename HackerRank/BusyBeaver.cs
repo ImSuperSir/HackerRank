@@ -44,6 +44,21 @@ namespace HackerRank
 
         public int Value { get; set; }
     }
+
+
+    /// <summary>
+    /// Este algoritmo se trata de un castor que tala arboles para hacer su represa
+    /// Se da un array, y cada posicion mantiene un numero que indica el numero de arboles
+    ///     que puede derribar en esa posicion
+    /// El castor debe empezar en el centro del array
+    ///     Si hay una dimension par, se elige la posición en esa dimension con mayor valor
+    /// El castor solo se puede mover up, down, right and left
+    /// El castor setea a cero la posición donde tala
+    /// El castor no puede avanzar a una posicion donde no haya arboles
+    /// El castor deja de trabajar si no tiene posiciones mayor a cero
+    /// El algorimo devuelve la suma de los arboles talados durante su recorrido
+    /// 
+    /// </summary>
     public class Square
     {
 
